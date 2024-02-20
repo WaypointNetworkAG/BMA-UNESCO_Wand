@@ -1,0 +1,2017 @@
+{
+  "meta": {
+    "brightAuthorVersion": "1.27.1",
+    "buildType": "Standard"
+  },
+  "bsdm": {
+    "sign": {
+      "properties": {
+        "id": "49167dcc-705b-4000-af97-a14572776000",
+        "version": "1.3.10",
+        "name": "UNESCO Wand 1",
+        "videoMode": "1920x1080x60p",
+        "size": {
+          "width": 1080,
+          "height": 1920
+        },
+        "model": "XD1034",
+        "monitorOrientation": "PortraitBottomLeft",
+        "monitorOverscan": "NoOverscan",
+        "videoConnector": "HDMI",
+        "deviceWebPageDisplay": "Standard",
+        "backgroundScreenColor": {
+          "a": 255,
+          "r": 0,
+          "g": 0,
+          "b": 0
+        },
+        "forceResolution": false,
+        "tenBitColorEnabled": false,
+        "dolbyVisionEnabled": false,
+        "fullResGraphicsEnabled": false,
+        "audioConfiguration": "MixedAudioPCMOnly",
+        "audioAutoLevel": false,
+        "htmlEnableJavascriptConsole": false,
+        "alphabetizeVariableNames": false,
+        "autoCreateMediaCounterVariables": false,
+        "resetVariablesOnPresentationStart": false,
+        "networkedVariablesUpdateInterval": 300,
+        "delayScheduleChangeUntilMediaEndEvent": false,
+        "language": "English",
+        "languageKey": "eng",
+        "flipCoordinates": false,
+        "inactivityTimeout": false,
+        "inactivityTime": 30,
+        "touchCursorDisplayMode": "Auto",
+        "udpDestinationAddressType": "IPAddress",
+        "udpDestinationAddress": "255.255.255.255",
+        "udpDestinationPort": 5000,
+        "udpReceiverPort": 5000,
+        "enableEnhancedSynchronization": null,
+        "disableSettingsHandler": false,
+        "htmlEnableChromiumVideoPlayback": false,
+        "isMosaic": false,
+        "graphicsZOrder": "Back"
+      },
+      "serialPortConfigurations": [
+        {
+          "port": "0",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        },
+        {
+          "port": "1",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        },
+        {
+          "port": "2",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        },
+        {
+          "port": "3",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        },
+        {
+          "port": "4",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        },
+        {
+          "port": "5",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        },
+        {
+          "port": "6",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        },
+        {
+          "port": "7",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        }
+      ],
+      "gpio": [
+        "input",
+        "input",
+        "input",
+        "input",
+        "input",
+        "input",
+        "input",
+        "input"
+      ],
+      "buttonPanels": {
+        "bp900a": {
+          "configureAutomatically": true,
+          "configuration": 0
+        },
+        "bp900b": {
+          "configureAutomatically": true,
+          "configuration": 0
+        },
+        "bp900c": {
+          "configureAutomatically": true,
+          "configuration": 0
+        },
+        "bp900d": {
+          "configureAutomatically": true,
+          "configuration": 0
+        },
+        "bp200a": {
+          "configureAutomatically": true,
+          "configuration": 0
+        },
+        "bp200b": {
+          "configureAutomatically": true,
+          "configuration": 0
+        },
+        "bp200c": {
+          "configureAutomatically": true,
+          "configuration": 0
+        },
+        "bp200d": {
+          "configureAutomatically": true,
+          "configuration": 0
+        }
+      },
+      "irRemote": {
+        "irInConfiguration": {
+          "source": "Ir-in"
+        },
+        "irOutConfiguration": {
+          "destination": "Iguana"
+        },
+        "irRemoteControl": {
+          "id": "RC-1002",
+          "encoding": "NEC",
+          "manufacturerCode": 28560,
+          "buttons": {
+            "0": {
+              "buttonCode": 0,
+              "buttonDescription": "Option"
+            },
+            "1": {
+              "buttonCode": 1,
+              "buttonDescription": "1"
+            },
+            "2": {
+              "buttonCode": 2,
+              "buttonDescription": "2"
+            },
+            "3": {
+              "buttonCode": 3,
+              "buttonDescription": "3"
+            },
+            "4": {
+              "buttonCode": 4,
+              "buttonDescription": "4"
+            },
+            "5": {
+              "buttonCode": 5,
+              "buttonDescription": "5"
+            },
+            "6": {
+              "buttonCode": 6,
+              "buttonDescription": "6"
+            },
+            "7": {
+              "buttonCode": 7,
+              "buttonDescription": "7"
+            },
+            "8": {
+              "buttonCode": 8,
+              "buttonDescription": "8"
+            },
+            "9": {
+              "buttonCode": 9,
+              "buttonDescription": "9"
+            },
+            "10": {
+              "buttonCode": 10,
+              "buttonDescription": "Exit"
+            },
+            "11": {
+              "buttonCode": 11,
+              "buttonDescription": "Channel Up"
+            },
+            "12": {
+              "buttonCode": 12,
+              "buttonDescription": "Period \".\""
+            },
+            "13": {
+              "buttonCode": 13,
+              "buttonDescription": "Channel Down"
+            },
+            "14": {
+              "buttonCode": 14,
+              "buttonDescription": "Source"
+            },
+            "15": {
+              "buttonCode": 15,
+              "buttonDescription": "Mute"
+            },
+            "16": {
+              "buttonCode": 16,
+              "buttonDescription": "Left"
+            },
+            "17": {
+              "buttonCode": 17,
+              "buttonDescription": "Right"
+            },
+            "18": {
+              "buttonCode": 18,
+              "buttonDescription": "Up"
+            },
+            "19": {
+              "buttonCode": 19,
+              "buttonDescription": "Down"
+            },
+            "20": {
+              "buttonCode": 20,
+              "buttonDescription": "Ok"
+            },
+            "21": {
+              "buttonCode": 21,
+              "buttonDescription": "Back"
+            },
+            "22": {
+              "buttonCode": 22,
+              "buttonDescription": "Power"
+            },
+            "23": {
+              "buttonCode": 23,
+              "buttonDescription": "Home"
+            },
+            "24": {
+              "buttonCode": 24,
+              "buttonDescription": "Search"
+            },
+            "25": {
+              "buttonCode": 25,
+              "buttonDescription": "Play"
+            },
+            "26": {
+              "buttonCode": 26,
+              "buttonDescription": "Fast Forward"
+            },
+            "27": {
+              "buttonCode": 27,
+              "buttonDescription": "Rewind"
+            },
+            "28": {
+              "buttonCode": 28,
+              "buttonDescription": "Pause"
+            },
+            "29": {
+              "buttonCode": 29,
+              "buttonDescription": "Add"
+            },
+            "30": {
+              "buttonCode": 30,
+              "buttonDescription": "Shuffle"
+            },
+            "31": {
+              "buttonCode": 31,
+              "buttonDescription": "Repeat"
+            },
+            "64": {
+              "buttonCode": 64,
+              "buttonDescription": "Volume Up"
+            },
+            "65": {
+              "buttonCode": 65,
+              "buttonDescription": "Volume Down"
+            },
+            "66": {
+              "buttonCode": 66,
+              "buttonDescription": "Brightness"
+            },
+            "67": {
+              "buttonCode": 67,
+              "buttonDescription": "Info"
+            },
+            "68": {
+              "buttonCode": 68,
+              "buttonDescription": "Green"
+            },
+            "69": {
+              "buttonCode": 69,
+              "buttonDescription": "0"
+            },
+            "70": {
+              "buttonCode": 70,
+              "buttonDescription": "Stop"
+            },
+            "71": {
+              "buttonCode": 71,
+              "buttonDescription": "Last"
+            },
+            "83": {
+              "buttonCode": 83,
+              "buttonDescription": "Red"
+            },
+            "84": {
+              "buttonCode": 84,
+              "buttonDescription": "Blue"
+            },
+            "87": {
+              "buttonCode": 87,
+              "buttonDescription": "Yellow"
+            }
+          }
+        }
+      },
+      "audioSignPropertyMap": {
+        "analog1": {
+          "min": 0,
+          "max": 100
+        },
+        "analog2": {
+          "min": 0,
+          "max": 100
+        },
+        "analog3": {
+          "min": 0,
+          "max": 100
+        },
+        "hdmi": {
+          "min": 0,
+          "max": 100
+        },
+        "hdmi1": {
+          "min": 0,
+          "max": 100
+        },
+        "hdmi2": {
+          "min": 0,
+          "max": 100
+        },
+        "hdmi3": {
+          "min": 0,
+          "max": 100
+        },
+        "hdmi4": {
+          "min": 0,
+          "max": 100
+        },
+        "spdif": {
+          "min": 0,
+          "max": 100
+        },
+        "usbA": {
+          "min": 0,
+          "max": 100
+        },
+        "usbB": {
+          "min": 0,
+          "max": 100
+        },
+        "usbC": {
+          "min": 0,
+          "max": 100
+        },
+        "usbD": {
+          "min": 0,
+          "max": 100
+        },
+        "usbTypeA": {
+          "min": 0,
+          "max": 100
+        },
+        "usbTypeC": {
+          "min": 0,
+          "max": 100
+        },
+        "usb700_1": {
+          "min": 0,
+          "max": 100
+        },
+        "usb700_2": {
+          "min": 0,
+          "max": 100
+        },
+        "usb700_3": {
+          "min": 0,
+          "max": 100
+        },
+        "usb700_4": {
+          "min": 0,
+          "max": 100
+        },
+        "usb700_5": {
+          "min": 0,
+          "max": 100
+        },
+        "usb700_6": {
+          "min": 0,
+          "max": 100
+        },
+        "usb700_7": {
+          "min": 0,
+          "max": 100
+        },
+        "usb_1": {
+          "min": 0,
+          "max": 100
+        },
+        "usb_2": {
+          "min": 0,
+          "max": 100
+        },
+        "usb_3": {
+          "min": 0,
+          "max": 100
+        },
+        "usb_4": {
+          "min": 0,
+          "max": 100
+        },
+        "usb_5": {
+          "min": 0,
+          "max": 100
+        },
+        "usb_6": {
+          "min": 0,
+          "max": 100
+        }
+      },
+      "wssDeviceSpec": {},
+      "lastModifiedTime": "2024-02-20T19:01:26.345Z"
+    },
+    "zones": {
+      "zonesById": {
+        "4cf67554-efb5-4000-a03a-e686b6866000": {
+          "id": "4cf67554-efb5-4000-a03a-e686b6866000",
+          "name": "Zone 1",
+          "type": "VideoOrImages",
+          "tag": "VI1",
+          "nonInteractive": true,
+          "initialMediaStateId": "691c9ece-981e-4000-a2cb-e1596b196000",
+          "position": {
+            "width": 1920,
+            "height": 1080,
+            "x": 0,
+            "y": 0,
+            "pct": false
+          },
+          "properties": {
+            "viewMode": "Letterboxed and Centered",
+            "videoVolume": 100,
+            "maxContentResolution": "HD",
+            "brightness": 128,
+            "contrast": 64,
+            "saturation": 64,
+            "hue": 0,
+            "zOrderFront": true,
+            "mosaic": false,
+            "audioOutput": "Analog",
+            "audioMode": "Stereo",
+            "audioMapping": "Audio1",
+            "audioOutputAssignments": {
+              "analog1": "Pcm",
+              "analog2": "None",
+              "analog3": "None",
+              "usbA": "None",
+              "usbB": "None",
+              "usbC": "None",
+              "usbD": "None",
+              "usbTypeA": "None",
+              "usbTypeC": "None",
+              "usb700_1": "None",
+              "usb700_2": "None",
+              "usb700_3": "None",
+              "usb700_4": "None",
+              "usb700_5": "None",
+              "usb700_6": "None",
+              "usb700_7": "None",
+              "usb_1": "None",
+              "usb_2": "None",
+              "usb_3": "None",
+              "usb_4": "None",
+              "usb_5": "None",
+              "usb_6": "None",
+              "spdif": "Pcm",
+              "hdmi": "Pcm",
+              "hdmi1": "Pcm",
+              "hdmi2": "None",
+              "hdmi3": "None",
+              "hdmi4": "None"
+            },
+            "audioMixMode": "Stereo",
+            "audioVolume": 100,
+            "minimumVolume": 0,
+            "maximumVolume": 100,
+            "imageMode": "Scale to Fit"
+          }
+        }
+      },
+      "allZones": [
+        "4cf67554-efb5-4000-a03a-e686b6866000"
+      ],
+      "zoneLayersById": {
+        "9f0bcf24-5299-4000-a042-479586894000": {
+          "id": "9f0bcf24-5299-4000-a042-479586894000",
+          "type": "Graphics",
+          "zoneSequence": [
+            "4cf67554-efb5-4000-a03a-e686b6866000"
+          ]
+        },
+        "f44802d6-038b-4000-a586-20a3183fb000": {
+          "id": "f44802d6-038b-4000-a586-20a3183fb000",
+          "type": "Audio",
+          "zoneSequence": []
+        },
+        "64763a6b-7061-4000-aeb4-583e88442000": {
+          "id": "64763a6b-7061-4000-aeb4-583e88442000",
+          "type": "Invisible",
+          "zoneSequence": []
+        },
+        "b23e6611-f8b2-4000-a338-ee3f65ccf000": {
+          "id": "b23e6611-f8b2-4000-a338-ee3f65ccf000",
+          "type": "Video",
+          "zoneSequence": [
+            "4cf67554-efb5-4000-a03a-e686b6866000"
+          ],
+          "zoneLayerSpecificProperties": {
+            "type": "HD",
+            "index": 0,
+            "sharedDecoder": true,
+            "enableMosaicDeinterlacer": false
+          }
+        },
+        "eb16e654-201d-4000-a438-e1b82d4bf000": {
+          "id": "eb16e654-201d-4000-a438-e1b82d4bf000",
+          "type": "Video",
+          "zoneSequence": [],
+          "zoneLayerSpecificProperties": {
+            "type": "HD",
+            "index": 1,
+            "sharedDecoder": true,
+            "enableMosaicDeinterlacer": false
+          }
+        }
+      },
+      "zoneLayerSequence": [
+        "9f0bcf24-5299-4000-a042-479586894000",
+        "b23e6611-f8b2-4000-a338-ee3f65ccf000",
+        "eb16e654-201d-4000-a438-e1b82d4bf000"
+      ],
+      "zoneTagIndices": {
+        "4cf67554-efb5-4000-a03a-e686b6866000": 27
+      }
+    },
+    "screens": {
+      "screensById": {},
+      "allScreens": []
+    },
+    "mediaStates": {
+      "mediaStatesById": {
+        "691c9ece-981e-4000-a2cb-e1596b196000": {
+          "id": "691c9ece-981e-4000-a2cb-e1596b196000",
+          "name": "Folie1.PNG",
+          "tag": "1",
+          "container": {
+            "id": "4cf67554-efb5-4000-a03a-e686b6866000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Folie1.PNG",
+            "type": "Image",
+            "assetId": "f9322aac-31b8-4000-a762-bc0281548000",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "No effect",
+            "transitionDuration": 1
+          }
+        },
+        "0affc888-ff9b-4000-a873-74af68550000": {
+          "id": "0affc888-ff9b-4000-a873-74af68550000",
+          "name": "Folie10.PNG",
+          "tag": "2",
+          "container": {
+            "id": "4cf67554-efb5-4000-a03a-e686b6866000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Folie10.PNG",
+            "type": "Image",
+            "assetId": "dbb8fb7f-8528-4000-a538-d946152b7000",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "No effect",
+            "transitionDuration": 1
+          }
+        },
+        "87a00164-d6cc-4000-a9d1-b94c9f93c000": {
+          "id": "87a00164-d6cc-4000-a9d1-b94c9f93c000",
+          "name": "Folie11.PNG",
+          "tag": "3",
+          "container": {
+            "id": "4cf67554-efb5-4000-a03a-e686b6866000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Folie11.PNG",
+            "type": "Image",
+            "assetId": "3df54bc3-f2c9-4000-a83e-36254f08f000",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "No effect",
+            "transitionDuration": 1
+          }
+        },
+        "649d48f8-7c15-4000-a9ac-da340df7e000": {
+          "id": "649d48f8-7c15-4000-a9ac-da340df7e000",
+          "name": "Folie12.PNG",
+          "tag": "4",
+          "container": {
+            "id": "4cf67554-efb5-4000-a03a-e686b6866000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Folie12.PNG",
+            "type": "Image",
+            "assetId": "3f9406e4-b033-4000-a737-48f1ca527000",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "No effect",
+            "transitionDuration": 1
+          }
+        },
+        "8911b283-5107-4000-ad7d-84300fe45000": {
+          "id": "8911b283-5107-4000-ad7d-84300fe45000",
+          "name": "Folie13.PNG",
+          "tag": "5",
+          "container": {
+            "id": "4cf67554-efb5-4000-a03a-e686b6866000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Folie13.PNG",
+            "type": "Image",
+            "assetId": "24d2a354-7ce2-4000-ac6b-f6014e812000",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "No effect",
+            "transitionDuration": 1
+          }
+        },
+        "24dee341-89a4-4000-ac39-bfca3e35f000": {
+          "id": "24dee341-89a4-4000-ac39-bfca3e35f000",
+          "name": "Folie14.PNG",
+          "tag": "6",
+          "container": {
+            "id": "4cf67554-efb5-4000-a03a-e686b6866000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Folie14.PNG",
+            "type": "Image",
+            "assetId": "49e24191-58bb-4000-adf8-32eb2bb14000",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "No effect",
+            "transitionDuration": 1
+          }
+        },
+        "06d02189-4d1a-4000-a173-1bce3375a000": {
+          "id": "06d02189-4d1a-4000-a173-1bce3375a000",
+          "name": "Folie15.PNG",
+          "tag": "7",
+          "container": {
+            "id": "4cf67554-efb5-4000-a03a-e686b6866000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Folie15.PNG",
+            "type": "Image",
+            "assetId": "b2cc762d-1c08-4000-a0ba-bba7f86aa000",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "No effect",
+            "transitionDuration": 1
+          }
+        },
+        "c51eb2d1-1e68-4000-a099-6e2a5dda2000": {
+          "id": "c51eb2d1-1e68-4000-a099-6e2a5dda2000",
+          "name": "Folie16.PNG",
+          "tag": "8",
+          "container": {
+            "id": "4cf67554-efb5-4000-a03a-e686b6866000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Folie16.PNG",
+            "type": "Image",
+            "assetId": "ed38a336-0c40-4000-a0a9-73056b819000",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "No effect",
+            "transitionDuration": 1
+          }
+        },
+        "689b7372-56fd-4000-ac63-9ba0ae375000": {
+          "id": "689b7372-56fd-4000-ac63-9ba0ae375000",
+          "name": "Folie17.PNG",
+          "tag": "9",
+          "container": {
+            "id": "4cf67554-efb5-4000-a03a-e686b6866000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Folie17.PNG",
+            "type": "Image",
+            "assetId": "e51fb869-75fb-4000-a4af-dd7b77924000",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "No effect",
+            "transitionDuration": 1
+          }
+        },
+        "f8d23303-ba67-4000-a043-f95414b71000": {
+          "id": "f8d23303-ba67-4000-a043-f95414b71000",
+          "name": "Folie18.PNG",
+          "tag": "10",
+          "container": {
+            "id": "4cf67554-efb5-4000-a03a-e686b6866000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Folie18.PNG",
+            "type": "Image",
+            "assetId": "5b94c0c4-786d-4000-a29b-fcc6ccb30000",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "No effect",
+            "transitionDuration": 1
+          }
+        },
+        "15ffcde2-6b44-4000-aad1-f93621cf8000": {
+          "id": "15ffcde2-6b44-4000-aad1-f93621cf8000",
+          "name": "Folie19.PNG",
+          "tag": "11",
+          "container": {
+            "id": "4cf67554-efb5-4000-a03a-e686b6866000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Folie19.PNG",
+            "type": "Image",
+            "assetId": "40f4965e-5994-4000-a43e-8bf51801b000",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "No effect",
+            "transitionDuration": 1
+          }
+        },
+        "a95cfff6-c0ec-4000-ad86-d1119c5b5000": {
+          "id": "a95cfff6-c0ec-4000-ad86-d1119c5b5000",
+          "name": "Folie2.PNG",
+          "tag": "12",
+          "container": {
+            "id": "4cf67554-efb5-4000-a03a-e686b6866000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Folie2.PNG",
+            "type": "Image",
+            "assetId": "de28b172-ef7b-4000-ac14-11c0d0d44000",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "No effect",
+            "transitionDuration": 1
+          }
+        },
+        "afc24d25-3aac-4000-a72e-28927e58a000": {
+          "id": "afc24d25-3aac-4000-a72e-28927e58a000",
+          "name": "Folie20.PNG",
+          "tag": "13",
+          "container": {
+            "id": "4cf67554-efb5-4000-a03a-e686b6866000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Folie20.PNG",
+            "type": "Image",
+            "assetId": "116a394b-5ec0-4000-a9dc-62e88516b000",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "No effect",
+            "transitionDuration": 1
+          }
+        },
+        "8f68a519-5667-4000-ad44-ed9b2ee7a000": {
+          "id": "8f68a519-5667-4000-ad44-ed9b2ee7a000",
+          "name": "Folie21.PNG",
+          "tag": "14",
+          "container": {
+            "id": "4cf67554-efb5-4000-a03a-e686b6866000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Folie21.PNG",
+            "type": "Image",
+            "assetId": "4c78cc16-6243-4000-afbb-5b1e920fc000",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "No effect",
+            "transitionDuration": 1
+          }
+        },
+        "b204ec51-6af8-4000-a013-e46fb42bc000": {
+          "id": "b204ec51-6af8-4000-a013-e46fb42bc000",
+          "name": "Folie22.PNG",
+          "tag": "15",
+          "container": {
+            "id": "4cf67554-efb5-4000-a03a-e686b6866000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Folie22.PNG",
+            "type": "Image",
+            "assetId": "6f7ce325-fd33-4000-a5cd-3e1057ac7000",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "No effect",
+            "transitionDuration": 1
+          }
+        },
+        "20100113-7018-4000-a8f7-3c240ed6d000": {
+          "id": "20100113-7018-4000-a8f7-3c240ed6d000",
+          "name": "Folie23.PNG",
+          "tag": "16",
+          "container": {
+            "id": "4cf67554-efb5-4000-a03a-e686b6866000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Folie23.PNG",
+            "type": "Image",
+            "assetId": "83480ae4-41ee-4000-aae0-532d13e9b000",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "No effect",
+            "transitionDuration": 1
+          }
+        },
+        "acacd602-2d32-4000-aa4e-6e8274267000": {
+          "id": "acacd602-2d32-4000-aa4e-6e8274267000",
+          "name": "Folie24.PNG",
+          "tag": "17",
+          "container": {
+            "id": "4cf67554-efb5-4000-a03a-e686b6866000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Folie24.PNG",
+            "type": "Image",
+            "assetId": "fa62cfea-0e7e-4000-a7d8-d62815fc7000",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "No effect",
+            "transitionDuration": 1
+          }
+        },
+        "3c6c5a50-7d9a-4000-ae42-896211ea8000": {
+          "id": "3c6c5a50-7d9a-4000-ae42-896211ea8000",
+          "name": "Folie25.PNG",
+          "tag": "18",
+          "container": {
+            "id": "4cf67554-efb5-4000-a03a-e686b6866000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Folie25.PNG",
+            "type": "Image",
+            "assetId": "777494ea-43ee-4000-a326-09db71f62000",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "No effect",
+            "transitionDuration": 1
+          }
+        },
+        "4b616262-7ff6-4000-a55c-df806e8b1000": {
+          "id": "4b616262-7ff6-4000-a55c-df806e8b1000",
+          "name": "Folie26.PNG",
+          "tag": "19",
+          "container": {
+            "id": "4cf67554-efb5-4000-a03a-e686b6866000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Folie26.PNG",
+            "type": "Image",
+            "assetId": "c4542698-82dd-4000-ae0a-82c9ab238000",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "No effect",
+            "transitionDuration": 1
+          }
+        },
+        "705c5be9-3865-4000-aac1-5ab2a9c1d000": {
+          "id": "705c5be9-3865-4000-aac1-5ab2a9c1d000",
+          "name": "Folie3.PNG",
+          "tag": "20",
+          "container": {
+            "id": "4cf67554-efb5-4000-a03a-e686b6866000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Folie3.PNG",
+            "type": "Image",
+            "assetId": "a709e307-d50d-4000-a3c9-c8634c9cb000",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "No effect",
+            "transitionDuration": 1
+          }
+        },
+        "1e635c5b-9444-4000-a263-532110ff7000": {
+          "id": "1e635c5b-9444-4000-a263-532110ff7000",
+          "name": "Folie4.PNG",
+          "tag": "21",
+          "container": {
+            "id": "4cf67554-efb5-4000-a03a-e686b6866000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Folie4.PNG",
+            "type": "Image",
+            "assetId": "cf216619-b445-4000-ac88-01b0fa20e000",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "No effect",
+            "transitionDuration": 1
+          }
+        },
+        "93cb60bb-9d4c-4000-ac34-3ea7f9f53000": {
+          "id": "93cb60bb-9d4c-4000-ac34-3ea7f9f53000",
+          "name": "Folie5.PNG",
+          "tag": "22",
+          "container": {
+            "id": "4cf67554-efb5-4000-a03a-e686b6866000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Folie5.PNG",
+            "type": "Image",
+            "assetId": "c2064aa0-6eba-4000-ac03-eb434bfd8000",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "No effect",
+            "transitionDuration": 1
+          }
+        },
+        "8642d46f-e27b-4000-a7ad-a54f0adee000": {
+          "id": "8642d46f-e27b-4000-a7ad-a54f0adee000",
+          "name": "Folie6.PNG",
+          "tag": "23",
+          "container": {
+            "id": "4cf67554-efb5-4000-a03a-e686b6866000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Folie6.PNG",
+            "type": "Image",
+            "assetId": "07d9b742-c99c-4000-a66a-06677e8e3000",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "No effect",
+            "transitionDuration": 1
+          }
+        },
+        "a8e78434-06ca-4000-ab0f-e88ed2e1d000": {
+          "id": "a8e78434-06ca-4000-ab0f-e88ed2e1d000",
+          "name": "Folie7.PNG",
+          "tag": "24",
+          "container": {
+            "id": "4cf67554-efb5-4000-a03a-e686b6866000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Folie7.PNG",
+            "type": "Image",
+            "assetId": "8665ea2c-b8eb-4000-a481-524a13793000",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "No effect",
+            "transitionDuration": 1
+          }
+        },
+        "ca490711-8ac3-4000-a91e-133d2edd8000": {
+          "id": "ca490711-8ac3-4000-a91e-133d2edd8000",
+          "name": "Folie8.PNG",
+          "tag": "25",
+          "container": {
+            "id": "4cf67554-efb5-4000-a03a-e686b6866000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Folie8.PNG",
+            "type": "Image",
+            "assetId": "1f4c76e3-bfba-4000-adc0-311d1ca26000",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "No effect",
+            "transitionDuration": 1
+          }
+        },
+        "7981f7f0-4cd2-4000-aac0-5e6346a0e000": {
+          "id": "7981f7f0-4cd2-4000-aac0-5e6346a0e000",
+          "name": "Folie9.PNG",
+          "tag": "26",
+          "container": {
+            "id": "4cf67554-efb5-4000-a03a-e686b6866000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Folie9.PNG",
+            "type": "Image",
+            "assetId": "b3450260-cb1a-4000-a2e2-dc4ef487b000",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "No effect",
+            "transitionDuration": 1
+          }
+        }
+      },
+      "sequencesByParentId": {}
+    },
+    "events": {
+      "89f0f1a4-4f47-4000-ad8a-acad63c3d000": {
+        "id": "89f0f1a4-4f47-4000-ad8a-acad63c3d000",
+        "name": "Folie1.PNG_ev",
+        "type": "Timer",
+        "mediaStateId": "691c9ece-981e-4000-a2cb-e1596b196000",
+        "disabled": false,
+        "data": {
+          "interval": 10
+        }
+      },
+      "fb60b588-2a64-4000-a76c-f4dde6bde000": {
+        "id": "fb60b588-2a64-4000-a76c-f4dde6bde000",
+        "name": "Folie10.PNG_ev",
+        "type": "Timer",
+        "mediaStateId": "0affc888-ff9b-4000-a873-74af68550000",
+        "disabled": false,
+        "data": {
+          "interval": 10
+        }
+      },
+      "2d8a7107-f73c-4000-a046-48c83b054000": {
+        "id": "2d8a7107-f73c-4000-a046-48c83b054000",
+        "name": "Folie11.PNG_ev",
+        "type": "Timer",
+        "mediaStateId": "87a00164-d6cc-4000-a9d1-b94c9f93c000",
+        "disabled": false,
+        "data": {
+          "interval": 10
+        }
+      },
+      "46f2f6f7-86f5-4000-a81e-63ae8081a000": {
+        "id": "46f2f6f7-86f5-4000-a81e-63ae8081a000",
+        "name": "Folie12.PNG_ev",
+        "type": "Timer",
+        "mediaStateId": "649d48f8-7c15-4000-a9ac-da340df7e000",
+        "disabled": false,
+        "data": {
+          "interval": 10
+        }
+      },
+      "70c1ab09-5bcf-4000-a18f-f7f867bc0000": {
+        "id": "70c1ab09-5bcf-4000-a18f-f7f867bc0000",
+        "name": "Folie13.PNG_ev",
+        "type": "Timer",
+        "mediaStateId": "8911b283-5107-4000-ad7d-84300fe45000",
+        "disabled": false,
+        "data": {
+          "interval": 10
+        }
+      },
+      "b5c8893a-5f83-4000-a18a-a950f786e000": {
+        "id": "b5c8893a-5f83-4000-a18a-a950f786e000",
+        "name": "Folie14.PNG_ev",
+        "type": "Timer",
+        "mediaStateId": "24dee341-89a4-4000-ac39-bfca3e35f000",
+        "disabled": false,
+        "data": {
+          "interval": 10
+        }
+      },
+      "591ac99d-7370-4000-af24-71ce9b8f7000": {
+        "id": "591ac99d-7370-4000-af24-71ce9b8f7000",
+        "name": "Folie15.PNG_ev",
+        "type": "Timer",
+        "mediaStateId": "06d02189-4d1a-4000-a173-1bce3375a000",
+        "disabled": false,
+        "data": {
+          "interval": 10
+        }
+      },
+      "bdaec5d0-5267-4000-ac0b-e88278ab9000": {
+        "id": "bdaec5d0-5267-4000-ac0b-e88278ab9000",
+        "name": "Folie16.PNG_ev",
+        "type": "Timer",
+        "mediaStateId": "c51eb2d1-1e68-4000-a099-6e2a5dda2000",
+        "disabled": false,
+        "data": {
+          "interval": 10
+        }
+      },
+      "23c1af8e-726a-4000-aa69-456b964d3000": {
+        "id": "23c1af8e-726a-4000-aa69-456b964d3000",
+        "name": "Folie17.PNG_ev",
+        "type": "Timer",
+        "mediaStateId": "689b7372-56fd-4000-ac63-9ba0ae375000",
+        "disabled": false,
+        "data": {
+          "interval": 10
+        }
+      },
+      "719e59f2-1faf-4000-ae46-323f3724d000": {
+        "id": "719e59f2-1faf-4000-ae46-323f3724d000",
+        "name": "Folie18.PNG_ev",
+        "type": "Timer",
+        "mediaStateId": "f8d23303-ba67-4000-a043-f95414b71000",
+        "disabled": false,
+        "data": {
+          "interval": 10
+        }
+      },
+      "d50bc3d4-4bd1-4000-a254-fc9b1d734000": {
+        "id": "d50bc3d4-4bd1-4000-a254-fc9b1d734000",
+        "name": "Folie19.PNG_ev",
+        "type": "Timer",
+        "mediaStateId": "15ffcde2-6b44-4000-aad1-f93621cf8000",
+        "disabled": false,
+        "data": {
+          "interval": 10
+        }
+      },
+      "8831c519-d7d3-4000-acf4-c63287818000": {
+        "id": "8831c519-d7d3-4000-acf4-c63287818000",
+        "name": "Folie2.PNG_ev",
+        "type": "Timer",
+        "mediaStateId": "a95cfff6-c0ec-4000-ad86-d1119c5b5000",
+        "disabled": false,
+        "data": {
+          "interval": 10
+        }
+      },
+      "cbc33ec6-5e1e-4000-ac8a-f080cf012000": {
+        "id": "cbc33ec6-5e1e-4000-ac8a-f080cf012000",
+        "name": "Folie20.PNG_ev",
+        "type": "Timer",
+        "mediaStateId": "afc24d25-3aac-4000-a72e-28927e58a000",
+        "disabled": false,
+        "data": {
+          "interval": 10
+        }
+      },
+      "6f1871da-68f0-4000-a29a-75e18db12000": {
+        "id": "6f1871da-68f0-4000-a29a-75e18db12000",
+        "name": "Folie21.PNG_ev",
+        "type": "Timer",
+        "mediaStateId": "8f68a519-5667-4000-ad44-ed9b2ee7a000",
+        "disabled": false,
+        "data": {
+          "interval": 10
+        }
+      },
+      "ce497618-bc3e-4000-af21-f302f67cd000": {
+        "id": "ce497618-bc3e-4000-af21-f302f67cd000",
+        "name": "Folie22.PNG_ev",
+        "type": "Timer",
+        "mediaStateId": "b204ec51-6af8-4000-a013-e46fb42bc000",
+        "disabled": false,
+        "data": {
+          "interval": 10
+        }
+      },
+      "b6d5311c-6420-4000-a9b0-c62f25385000": {
+        "id": "b6d5311c-6420-4000-a9b0-c62f25385000",
+        "name": "Folie23.PNG_ev",
+        "type": "Timer",
+        "mediaStateId": "20100113-7018-4000-a8f7-3c240ed6d000",
+        "disabled": false,
+        "data": {
+          "interval": 10
+        }
+      },
+      "fbbf43da-bbe0-4000-a9ea-21703659d000": {
+        "id": "fbbf43da-bbe0-4000-a9ea-21703659d000",
+        "name": "Folie24.PNG_ev",
+        "type": "Timer",
+        "mediaStateId": "acacd602-2d32-4000-aa4e-6e8274267000",
+        "disabled": false,
+        "data": {
+          "interval": 10
+        }
+      },
+      "969e5489-61dd-4000-ae8b-58ccaf72d000": {
+        "id": "969e5489-61dd-4000-ae8b-58ccaf72d000",
+        "name": "Folie25.PNG_ev",
+        "type": "Timer",
+        "mediaStateId": "3c6c5a50-7d9a-4000-ae42-896211ea8000",
+        "disabled": false,
+        "data": {
+          "interval": 10
+        }
+      },
+      "91851bdf-7132-4000-a566-6c237ff46000": {
+        "id": "91851bdf-7132-4000-a566-6c237ff46000",
+        "name": "Folie26.PNG_ev",
+        "type": "Timer",
+        "mediaStateId": "4b616262-7ff6-4000-a55c-df806e8b1000",
+        "disabled": false,
+        "data": {
+          "interval": 10
+        }
+      },
+      "282f40a5-64f9-4000-abd4-659274ddf000": {
+        "id": "282f40a5-64f9-4000-abd4-659274ddf000",
+        "name": "Folie3.PNG_ev",
+        "type": "Timer",
+        "mediaStateId": "705c5be9-3865-4000-aac1-5ab2a9c1d000",
+        "disabled": false,
+        "data": {
+          "interval": 10
+        }
+      },
+      "fd915723-22dc-4000-afa0-09c0a4940000": {
+        "id": "fd915723-22dc-4000-afa0-09c0a4940000",
+        "name": "Folie4.PNG_ev",
+        "type": "Timer",
+        "mediaStateId": "1e635c5b-9444-4000-a263-532110ff7000",
+        "disabled": false,
+        "data": {
+          "interval": 10
+        }
+      },
+      "24b19ef6-9dde-4000-a20c-b4d512c19000": {
+        "id": "24b19ef6-9dde-4000-a20c-b4d512c19000",
+        "name": "Folie5.PNG_ev",
+        "type": "Timer",
+        "mediaStateId": "93cb60bb-9d4c-4000-ac34-3ea7f9f53000",
+        "disabled": false,
+        "data": {
+          "interval": 10
+        }
+      },
+      "8d8aa338-cbb5-4000-a2ff-3b51b0602000": {
+        "id": "8d8aa338-cbb5-4000-a2ff-3b51b0602000",
+        "name": "Folie6.PNG_ev",
+        "type": "Timer",
+        "mediaStateId": "8642d46f-e27b-4000-a7ad-a54f0adee000",
+        "disabled": false,
+        "data": {
+          "interval": 10
+        }
+      },
+      "a291e3a2-f36d-4000-ac02-7f6b38914000": {
+        "id": "a291e3a2-f36d-4000-ac02-7f6b38914000",
+        "name": "Folie7.PNG_ev",
+        "type": "Timer",
+        "mediaStateId": "a8e78434-06ca-4000-ab0f-e88ed2e1d000",
+        "disabled": false,
+        "data": {
+          "interval": 10
+        }
+      },
+      "25fd59cd-5458-4000-a6dd-97147d973000": {
+        "id": "25fd59cd-5458-4000-a6dd-97147d973000",
+        "name": "Folie8.PNG_ev",
+        "type": "Timer",
+        "mediaStateId": "ca490711-8ac3-4000-a91e-133d2edd8000",
+        "disabled": false,
+        "data": {
+          "interval": 10
+        }
+      },
+      "e78211c9-8773-4000-a78b-2615924e4000": {
+        "id": "e78211c9-8773-4000-a78b-2615924e4000",
+        "name": "Folie9.PNG_ev",
+        "type": "Timer",
+        "mediaStateId": "7981f7f0-4cd2-4000-aac0-5e6346a0e000",
+        "disabled": false,
+        "data": {
+          "interval": 10
+        }
+      }
+    },
+    "transitions": {
+      "transitionsById": {
+        "20440aa0-9a0a-4000-a9e6-02dc52eb0000": {
+          "id": "20440aa0-9a0a-4000-a9e6-02dc52eb0000",
+          "name": "Folie1.PNG_tr",
+          "eventId": "89f0f1a4-4f47-4000-ad8a-acad63c3d000",
+          "targetMediaStateId": "a95cfff6-c0ec-4000-ad86-d1119c5b5000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "854a62f9-d02c-4000-a6f1-b554bbf60000": {
+          "id": "854a62f9-d02c-4000-a6f1-b554bbf60000",
+          "name": "Folie10.PNG_tr",
+          "eventId": "fb60b588-2a64-4000-a76c-f4dde6bde000",
+          "targetMediaStateId": "87a00164-d6cc-4000-a9d1-b94c9f93c000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "1679e6cb-8411-4000-a512-5b2b34f1e000": {
+          "id": "1679e6cb-8411-4000-a512-5b2b34f1e000",
+          "name": "Folie11.PNG_tr",
+          "eventId": "2d8a7107-f73c-4000-a046-48c83b054000",
+          "targetMediaStateId": "649d48f8-7c15-4000-a9ac-da340df7e000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "ca1ba552-e052-4000-aa18-376a232d4000": {
+          "id": "ca1ba552-e052-4000-aa18-376a232d4000",
+          "name": "Folie12.PNG_tr",
+          "eventId": "46f2f6f7-86f5-4000-a81e-63ae8081a000",
+          "targetMediaStateId": "8911b283-5107-4000-ad7d-84300fe45000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "034bc586-906f-4000-ace3-7e8b61119000": {
+          "id": "034bc586-906f-4000-ace3-7e8b61119000",
+          "name": "Folie13.PNG_tr",
+          "eventId": "70c1ab09-5bcf-4000-a18f-f7f867bc0000",
+          "targetMediaStateId": "24dee341-89a4-4000-ac39-bfca3e35f000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "2b4e3ec9-cd44-4000-aa48-b93bcb954000": {
+          "id": "2b4e3ec9-cd44-4000-aa48-b93bcb954000",
+          "name": "Folie14.PNG_tr",
+          "eventId": "b5c8893a-5f83-4000-a18a-a950f786e000",
+          "targetMediaStateId": "06d02189-4d1a-4000-a173-1bce3375a000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "4a034336-0b58-4000-a231-6224f5803000": {
+          "id": "4a034336-0b58-4000-a231-6224f5803000",
+          "name": "Folie15.PNG_tr",
+          "eventId": "591ac99d-7370-4000-af24-71ce9b8f7000",
+          "targetMediaStateId": "c51eb2d1-1e68-4000-a099-6e2a5dda2000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "03155dd6-4e11-4000-a0f3-9423aff68000": {
+          "id": "03155dd6-4e11-4000-a0f3-9423aff68000",
+          "name": "Folie16.PNG_tr",
+          "eventId": "bdaec5d0-5267-4000-ac0b-e88278ab9000",
+          "targetMediaStateId": "689b7372-56fd-4000-ac63-9ba0ae375000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "6d4c5bbd-5597-4000-ae7e-4c6783da7000": {
+          "id": "6d4c5bbd-5597-4000-ae7e-4c6783da7000",
+          "name": "Folie17.PNG_tr",
+          "eventId": "23c1af8e-726a-4000-aa69-456b964d3000",
+          "targetMediaStateId": "f8d23303-ba67-4000-a043-f95414b71000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "203a2746-10e2-4000-ad5a-56063cb41000": {
+          "id": "203a2746-10e2-4000-ad5a-56063cb41000",
+          "name": "Folie18.PNG_tr",
+          "eventId": "719e59f2-1faf-4000-ae46-323f3724d000",
+          "targetMediaStateId": "15ffcde2-6b44-4000-aad1-f93621cf8000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "9a7196ee-2322-4000-aac7-847bd8de4000": {
+          "id": "9a7196ee-2322-4000-aac7-847bd8de4000",
+          "name": "Folie19.PNG_tr",
+          "eventId": "d50bc3d4-4bd1-4000-a254-fc9b1d734000",
+          "targetMediaStateId": "691c9ece-981e-4000-a2cb-e1596b196000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "5420d149-2d77-4000-a5b1-51d6ac370000": {
+          "id": "5420d149-2d77-4000-a5b1-51d6ac370000",
+          "name": "Folie2.PNG_tr",
+          "eventId": "8831c519-d7d3-4000-acf4-c63287818000",
+          "targetMediaStateId": "afc24d25-3aac-4000-a72e-28927e58a000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "e38a52c4-3725-4000-ad56-56b6da9d0000": {
+          "id": "e38a52c4-3725-4000-ad56-56b6da9d0000",
+          "name": "Folie20.PNG_tr",
+          "eventId": "cbc33ec6-5e1e-4000-ac8a-f080cf012000",
+          "targetMediaStateId": "8f68a519-5667-4000-ad44-ed9b2ee7a000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "86c25410-3c2e-4000-aad4-370280809000": {
+          "id": "86c25410-3c2e-4000-aad4-370280809000",
+          "name": "Folie21.PNG_tr",
+          "eventId": "6f1871da-68f0-4000-a29a-75e18db12000",
+          "targetMediaStateId": "b204ec51-6af8-4000-a013-e46fb42bc000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "d1ff847b-d322-4000-a000-395657af1000": {
+          "id": "d1ff847b-d322-4000-a000-395657af1000",
+          "name": "Folie22.PNG_tr",
+          "eventId": "ce497618-bc3e-4000-af21-f302f67cd000",
+          "targetMediaStateId": "20100113-7018-4000-a8f7-3c240ed6d000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "09cce990-6668-4000-a001-2a539bece000": {
+          "id": "09cce990-6668-4000-a001-2a539bece000",
+          "name": "Folie23.PNG_tr",
+          "eventId": "b6d5311c-6420-4000-a9b0-c62f25385000",
+          "targetMediaStateId": "acacd602-2d32-4000-aa4e-6e8274267000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "31ebb210-4cda-4000-a5da-9b0860076000": {
+          "id": "31ebb210-4cda-4000-a5da-9b0860076000",
+          "name": "Folie24.PNG_tr",
+          "eventId": "fbbf43da-bbe0-4000-a9ea-21703659d000",
+          "targetMediaStateId": "3c6c5a50-7d9a-4000-ae42-896211ea8000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "edd446b3-ca6b-4000-a5c4-769b953e3000": {
+          "id": "edd446b3-ca6b-4000-a5c4-769b953e3000",
+          "name": "Folie25.PNG_tr",
+          "eventId": "969e5489-61dd-4000-ae8b-58ccaf72d000",
+          "targetMediaStateId": "4b616262-7ff6-4000-a55c-df806e8b1000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "d2ab3a35-76dc-4000-a8a0-6a1f9eba6000": {
+          "id": "d2ab3a35-76dc-4000-a8a0-6a1f9eba6000",
+          "name": "Folie26.PNG_tr",
+          "eventId": "91851bdf-7132-4000-a566-6c237ff46000",
+          "targetMediaStateId": "705c5be9-3865-4000-aac1-5ab2a9c1d000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "b8023f24-12f4-4000-a5ea-048a90e39000": {
+          "id": "b8023f24-12f4-4000-a5ea-048a90e39000",
+          "name": "Folie3.PNG_tr",
+          "eventId": "282f40a5-64f9-4000-abd4-659274ddf000",
+          "targetMediaStateId": "1e635c5b-9444-4000-a263-532110ff7000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "dc4878c3-403b-4000-a077-1813aa117000": {
+          "id": "dc4878c3-403b-4000-a077-1813aa117000",
+          "name": "Folie4.PNG_tr",
+          "eventId": "fd915723-22dc-4000-afa0-09c0a4940000",
+          "targetMediaStateId": "93cb60bb-9d4c-4000-ac34-3ea7f9f53000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "0a40ee0c-ff11-4000-ad06-870e62381000": {
+          "id": "0a40ee0c-ff11-4000-ad06-870e62381000",
+          "name": "Folie5.PNG_tr",
+          "eventId": "24b19ef6-9dde-4000-a20c-b4d512c19000",
+          "targetMediaStateId": "8642d46f-e27b-4000-a7ad-a54f0adee000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "dc8c6b17-9453-4000-a1d3-6ec0b3845000": {
+          "id": "dc8c6b17-9453-4000-a1d3-6ec0b3845000",
+          "name": "Folie6.PNG_tr",
+          "eventId": "8d8aa338-cbb5-4000-a2ff-3b51b0602000",
+          "targetMediaStateId": "a8e78434-06ca-4000-ab0f-e88ed2e1d000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "59b6f9f4-1f54-4000-a1ba-e4be1a573000": {
+          "id": "59b6f9f4-1f54-4000-a1ba-e4be1a573000",
+          "name": "Folie7.PNG_tr",
+          "eventId": "a291e3a2-f36d-4000-ac02-7f6b38914000",
+          "targetMediaStateId": "ca490711-8ac3-4000-a91e-133d2edd8000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "3c67d348-d704-4000-aa37-1f0fd4ac3000": {
+          "id": "3c67d348-d704-4000-aa37-1f0fd4ac3000",
+          "name": "Folie8.PNG_tr",
+          "eventId": "25fd59cd-5458-4000-a6dd-97147d973000",
+          "targetMediaStateId": "7981f7f0-4cd2-4000-aac0-5e6346a0e000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "2773c4c2-4657-4000-a160-69d849397000": {
+          "id": "2773c4c2-4657-4000-a160-69d849397000",
+          "name": "Folie9.PNG_tr",
+          "eventId": "e78211c9-8773-4000-a78b-2615924e4000",
+          "targetMediaStateId": "0affc888-ff9b-4000-a873-74af68550000",
+          "type": "No effect",
+          "duration": 0
+        }
+      },
+      "sequencesByEventId": {}
+    },
+    "commands": {
+      "commandsById": {},
+      "sequencesById": {}
+    },
+    "htmlSites": {},
+    "nodeApps": {},
+    "dataFeeds": {
+      "feedsById": {},
+      "sourcesById": {}
+    },
+    "userVariables": {
+      "variablesById": {},
+      "sequence": []
+    },
+    "liveText": {
+      "itemsById": {},
+      "layersByCanvasId": {},
+      "dataFeedsByGroupId": {},
+      "canvasesById": {}
+    },
+    "deviceWebPages": {},
+    "scriptPlugins": {},
+    "parserPlugins": {},
+    "videoModePlugins": {},
+    "auxiliaryFiles": {},
+    "linkedPresentations": {},
+    "partnerProducts": {},
+    "customAutorun": "0",
+    "assetMap": {
+      "f9322aac-31b8-4000-a762-bc0281548000": {
+        "id": "f9322aac-31b8-4000-a762-bc0281548000",
+        "name": "Folie1.PNG",
+        "path": "/Users/noasendlhofer/Documents/GitHub/BMA-UNESCO_Wand/UNESCO Screen 1/content/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "5d5ece0e2b3fc9b5",
+        "locator": "file:///Users/noasendlhofer/Documents/GitHub/BMA-UNESCO_Wand/UNESCO Screen 1/content/Folie1.PNG",
+        "mediaType": "Image",
+        "fileSize": 995759,
+        "lastModifiedDate": "2022-08-08T06:48:10.000Z",
+        "refCount": 1
+      },
+      "dbb8fb7f-8528-4000-a538-d946152b7000": {
+        "id": "dbb8fb7f-8528-4000-a538-d946152b7000",
+        "name": "Folie10.PNG",
+        "path": "/Users/noasendlhofer/Documents/GitHub/BMA-UNESCO_Wand/UNESCO Screen 1/content/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "5d5ece0e2b3fc9b5",
+        "locator": "file:///Users/noasendlhofer/Documents/GitHub/BMA-UNESCO_Wand/UNESCO Screen 1/content/Folie10.PNG",
+        "mediaType": "Image",
+        "fileSize": 1384929,
+        "lastModifiedDate": "2022-08-08T06:48:12.000Z",
+        "refCount": 1
+      },
+      "3df54bc3-f2c9-4000-a83e-36254f08f000": {
+        "id": "3df54bc3-f2c9-4000-a83e-36254f08f000",
+        "name": "Folie11.PNG",
+        "path": "/Users/noasendlhofer/Documents/GitHub/BMA-UNESCO_Wand/UNESCO Screen 1/content/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "5d5ece0e2b3fc9b5",
+        "locator": "file:///Users/noasendlhofer/Documents/GitHub/BMA-UNESCO_Wand/UNESCO Screen 1/content/Folie11.PNG",
+        "mediaType": "Image",
+        "fileSize": 1536013,
+        "lastModifiedDate": "2022-08-08T06:48:12.000Z",
+        "refCount": 1
+      },
+      "3f9406e4-b033-4000-a737-48f1ca527000": {
+        "id": "3f9406e4-b033-4000-a737-48f1ca527000",
+        "name": "Folie12.PNG",
+        "path": "/Users/noasendlhofer/Documents/GitHub/BMA-UNESCO_Wand/UNESCO Screen 1/content/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "5d5ece0e2b3fc9b5",
+        "locator": "file:///Users/noasendlhofer/Documents/GitHub/BMA-UNESCO_Wand/UNESCO Screen 1/content/Folie12.PNG",
+        "mediaType": "Image",
+        "fileSize": 1538510,
+        "lastModifiedDate": "2022-08-08T06:48:12.000Z",
+        "refCount": 1
+      },
+      "24d2a354-7ce2-4000-ac6b-f6014e812000": {
+        "id": "24d2a354-7ce2-4000-ac6b-f6014e812000",
+        "name": "Folie13.PNG",
+        "path": "/Users/noasendlhofer/Documents/GitHub/BMA-UNESCO_Wand/UNESCO Screen 1/content/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "5d5ece0e2b3fc9b5",
+        "locator": "file:///Users/noasendlhofer/Documents/GitHub/BMA-UNESCO_Wand/UNESCO Screen 1/content/Folie13.PNG",
+        "mediaType": "Image",
+        "fileSize": 1524518,
+        "lastModifiedDate": "2022-08-08T06:48:13.000Z",
+        "refCount": 1
+      },
+      "49e24191-58bb-4000-adf8-32eb2bb14000": {
+        "id": "49e24191-58bb-4000-adf8-32eb2bb14000",
+        "name": "Folie14.PNG",
+        "path": "/Users/noasendlhofer/Documents/GitHub/BMA-UNESCO_Wand/UNESCO Screen 1/content/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "5d5ece0e2b3fc9b5",
+        "locator": "file:///Users/noasendlhofer/Documents/GitHub/BMA-UNESCO_Wand/UNESCO Screen 1/content/Folie14.PNG",
+        "mediaType": "Image",
+        "fileSize": 1526698,
+        "lastModifiedDate": "2022-08-08T06:48:13.000Z",
+        "refCount": 1
+      },
+      "b2cc762d-1c08-4000-a0ba-bba7f86aa000": {
+        "id": "b2cc762d-1c08-4000-a0ba-bba7f86aa000",
+        "name": "Folie15.PNG",
+        "path": "/Users/noasendlhofer/Documents/GitHub/BMA-UNESCO_Wand/UNESCO Screen 1/content/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "5d5ece0e2b3fc9b5",
+        "locator": "file:///Users/noasendlhofer/Documents/GitHub/BMA-UNESCO_Wand/UNESCO Screen 1/content/Folie15.PNG",
+        "mediaType": "Image",
+        "fileSize": 1044330,
+        "lastModifiedDate": "2022-08-08T06:48:13.000Z",
+        "refCount": 1
+      },
+      "ed38a336-0c40-4000-a0a9-73056b819000": {
+        "id": "ed38a336-0c40-4000-a0a9-73056b819000",
+        "name": "Folie16.PNG",
+        "path": "/Users/noasendlhofer/Documents/GitHub/BMA-UNESCO_Wand/UNESCO Screen 1/content/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "5d5ece0e2b3fc9b5",
+        "locator": "file:///Users/noasendlhofer/Documents/GitHub/BMA-UNESCO_Wand/UNESCO Screen 1/content/Folie16.PNG",
+        "mediaType": "Image",
+        "fileSize": 1047309,
+        "lastModifiedDate": "2022-08-08T06:48:13.000Z",
+        "refCount": 1
+      },
+      "e51fb869-75fb-4000-a4af-dd7b77924000": {
+        "id": "e51fb869-75fb-4000-a4af-dd7b77924000",
+        "name": "Folie17.PNG",
+        "path": "/Users/noasendlhofer/Documents/GitHub/BMA-UNESCO_Wand/UNESCO Screen 1/content/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "5d5ece0e2b3fc9b5",
+        "locator": "file:///Users/noasendlhofer/Documents/GitHub/BMA-UNESCO_Wand/UNESCO Screen 1/content/Folie17.PNG",
+        "mediaType": "Image",
+        "fileSize": 1488421,
+        "lastModifiedDate": "2022-08-08T06:48:13.000Z",
+        "refCount": 1
+      },
+      "5b94c0c4-786d-4000-a29b-fcc6ccb30000": {
+        "id": "5b94c0c4-786d-4000-a29b-fcc6ccb30000",
+        "name": "Folie18.PNG",
+        "path": "/Users/noasendlhofer/Documents/GitHub/BMA-UNESCO_Wand/UNESCO Screen 1/content/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "5d5ece0e2b3fc9b5",
+        "locator": "file:///Users/noasendlhofer/Documents/GitHub/BMA-UNESCO_Wand/UNESCO Screen 1/content/Folie18.PNG",
+        "mediaType": "Image",
+        "fileSize": 1490116,
+        "lastModifiedDate": "2022-08-08T06:48:14.000Z",
+        "refCount": 1
+      },
+      "40f4965e-5994-4000-a43e-8bf51801b000": {
+        "id": "40f4965e-5994-4000-a43e-8bf51801b000",
+        "name": "Folie19.PNG",
+        "path": "/Users/noasendlhofer/Documents/GitHub/BMA-UNESCO_Wand/UNESCO Screen 1/content/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "5d5ece0e2b3fc9b5",
+        "locator": "file:///Users/noasendlhofer/Documents/GitHub/BMA-UNESCO_Wand/UNESCO Screen 1/content/Folie19.PNG",
+        "mediaType": "Image",
+        "fileSize": 1632786,
+        "lastModifiedDate": "2022-08-08T06:48:14.000Z",
+        "refCount": 1
+      },
+      "de28b172-ef7b-4000-ac14-11c0d0d44000": {
+        "id": "de28b172-ef7b-4000-ac14-11c0d0d44000",
+        "name": "Folie2.PNG",
+        "path": "/Users/noasendlhofer/Documents/GitHub/BMA-UNESCO_Wand/UNESCO Screen 1/content/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "5d5ece0e2b3fc9b5",
+        "locator": "file:///Users/noasendlhofer/Documents/GitHub/BMA-UNESCO_Wand/UNESCO Screen 1/content/Folie2.PNG",
+        "mediaType": "Image",
+        "fileSize": 997452,
+        "lastModifiedDate": "2022-08-08T06:48:10.000Z",
+        "refCount": 1
+      },
+      "116a394b-5ec0-4000-a9dc-62e88516b000": {
+        "id": "116a394b-5ec0-4000-a9dc-62e88516b000",
+        "name": "Folie20.PNG",
+        "path": "/Users/noasendlhofer/Documents/GitHub/BMA-UNESCO_Wand/UNESCO Screen 1/content/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "5d5ece0e2b3fc9b5",
+        "locator": "file:///Users/noasendlhofer/Documents/GitHub/BMA-UNESCO_Wand/UNESCO Screen 1/content/Folie20.PNG",
+        "mediaType": "Image",
+        "fileSize": 1636300,
+        "lastModifiedDate": "2022-08-08T06:48:14.000Z",
+        "refCount": 1
+      },
+      "4c78cc16-6243-4000-afbb-5b1e920fc000": {
+        "id": "4c78cc16-6243-4000-afbb-5b1e920fc000",
+        "name": "Folie21.PNG",
+        "path": "/Users/noasendlhofer/Documents/GitHub/BMA-UNESCO_Wand/UNESCO Screen 1/content/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "5d5ece0e2b3fc9b5",
+        "locator": "file:///Users/noasendlhofer/Documents/GitHub/BMA-UNESCO_Wand/UNESCO Screen 1/content/Folie21.PNG",
+        "mediaType": "Image",
+        "fileSize": 1462759,
+        "lastModifiedDate": "2022-08-08T06:48:14.000Z",
+        "refCount": 1
+      },
+      "6f7ce325-fd33-4000-a5cd-3e1057ac7000": {
+        "id": "6f7ce325-fd33-4000-a5cd-3e1057ac7000",
+        "name": "Folie22.PNG",
+        "path": "/Users/noasendlhofer/Documents/GitHub/BMA-UNESCO_Wand/UNESCO Screen 1/content/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "5d5ece0e2b3fc9b5",
+        "locator": "file:///Users/noasendlhofer/Documents/GitHub/BMA-UNESCO_Wand/UNESCO Screen 1/content/Folie22.PNG",
+        "mediaType": "Image",
+        "fileSize": 1465252,
+        "lastModifiedDate": "2022-08-08T06:48:15.000Z",
+        "refCount": 1
+      },
+      "83480ae4-41ee-4000-aae0-532d13e9b000": {
+        "id": "83480ae4-41ee-4000-aae0-532d13e9b000",
+        "name": "Folie23.PNG",
+        "path": "/Users/noasendlhofer/Documents/GitHub/BMA-UNESCO_Wand/UNESCO Screen 1/content/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "5d5ece0e2b3fc9b5",
+        "locator": "file:///Users/noasendlhofer/Documents/GitHub/BMA-UNESCO_Wand/UNESCO Screen 1/content/Folie23.PNG",
+        "mediaType": "Image",
+        "fileSize": 1356868,
+        "lastModifiedDate": "2022-08-08T06:48:15.000Z",
+        "refCount": 1
+      },
+      "fa62cfea-0e7e-4000-a7d8-d62815fc7000": {
+        "id": "fa62cfea-0e7e-4000-a7d8-d62815fc7000",
+        "name": "Folie24.PNG",
+        "path": "/Users/noasendlhofer/Documents/GitHub/BMA-UNESCO_Wand/UNESCO Screen 1/content/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "5d5ece0e2b3fc9b5",
+        "locator": "file:///Users/noasendlhofer/Documents/GitHub/BMA-UNESCO_Wand/UNESCO Screen 1/content/Folie24.PNG",
+        "mediaType": "Image",
+        "fileSize": 1359388,
+        "lastModifiedDate": "2022-08-08T06:48:15.000Z",
+        "refCount": 1
+      },
+      "777494ea-43ee-4000-a326-09db71f62000": {
+        "id": "777494ea-43ee-4000-a326-09db71f62000",
+        "name": "Folie25.PNG",
+        "path": "/Users/noasendlhofer/Documents/GitHub/BMA-UNESCO_Wand/UNESCO Screen 1/content/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "5d5ece0e2b3fc9b5",
+        "locator": "file:///Users/noasendlhofer/Documents/GitHub/BMA-UNESCO_Wand/UNESCO Screen 1/content/Folie25.PNG",
+        "mediaType": "Image",
+        "fileSize": 1492747,
+        "lastModifiedDate": "2022-08-08T06:48:15.000Z",
+        "refCount": 1
+      },
+      "c4542698-82dd-4000-ae0a-82c9ab238000": {
+        "id": "c4542698-82dd-4000-ae0a-82c9ab238000",
+        "name": "Folie26.PNG",
+        "path": "/Users/noasendlhofer/Documents/GitHub/BMA-UNESCO_Wand/UNESCO Screen 1/content/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "5d5ece0e2b3fc9b5",
+        "locator": "file:///Users/noasendlhofer/Documents/GitHub/BMA-UNESCO_Wand/UNESCO Screen 1/content/Folie26.PNG",
+        "mediaType": "Image",
+        "fileSize": 1496473,
+        "lastModifiedDate": "2022-08-08T06:48:15.000Z",
+        "refCount": 1
+      },
+      "a709e307-d50d-4000-a3c9-c8634c9cb000": {
+        "id": "a709e307-d50d-4000-a3c9-c8634c9cb000",
+        "name": "Folie3.PNG",
+        "path": "/Users/noasendlhofer/Documents/GitHub/BMA-UNESCO_Wand/UNESCO Screen 1/content/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "5d5ece0e2b3fc9b5",
+        "locator": "file:///Users/noasendlhofer/Documents/GitHub/BMA-UNESCO_Wand/UNESCO Screen 1/content/Folie3.PNG",
+        "mediaType": "Image",
+        "fileSize": 1548058,
+        "lastModifiedDate": "2022-08-08T06:48:10.000Z",
+        "refCount": 1
+      },
+      "cf216619-b445-4000-ac88-01b0fa20e000": {
+        "id": "cf216619-b445-4000-ac88-01b0fa20e000",
+        "name": "Folie4.PNG",
+        "path": "/Users/noasendlhofer/Documents/GitHub/BMA-UNESCO_Wand/UNESCO Screen 1/content/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "5d5ece0e2b3fc9b5",
+        "locator": "file:///Users/noasendlhofer/Documents/GitHub/BMA-UNESCO_Wand/UNESCO Screen 1/content/Folie4.PNG",
+        "mediaType": "Image",
+        "fileSize": 1550898,
+        "lastModifiedDate": "2022-08-08T06:48:11.000Z",
+        "refCount": 1
+      },
+      "c2064aa0-6eba-4000-ac03-eb434bfd8000": {
+        "id": "c2064aa0-6eba-4000-ac03-eb434bfd8000",
+        "name": "Folie5.PNG",
+        "path": "/Users/noasendlhofer/Documents/GitHub/BMA-UNESCO_Wand/UNESCO Screen 1/content/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "5d5ece0e2b3fc9b5",
+        "locator": "file:///Users/noasendlhofer/Documents/GitHub/BMA-UNESCO_Wand/UNESCO Screen 1/content/Folie5.PNG",
+        "mediaType": "Image",
+        "fileSize": 1107226,
+        "lastModifiedDate": "2022-08-08T06:48:11.000Z",
+        "refCount": 1
+      },
+      "07d9b742-c99c-4000-a66a-06677e8e3000": {
+        "id": "07d9b742-c99c-4000-a66a-06677e8e3000",
+        "name": "Folie6.PNG",
+        "path": "/Users/noasendlhofer/Documents/GitHub/BMA-UNESCO_Wand/UNESCO Screen 1/content/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "5d5ece0e2b3fc9b5",
+        "locator": "file:///Users/noasendlhofer/Documents/GitHub/BMA-UNESCO_Wand/UNESCO Screen 1/content/Folie6.PNG",
+        "mediaType": "Image",
+        "fileSize": 1109114,
+        "lastModifiedDate": "2022-08-08T06:48:11.000Z",
+        "refCount": 1
+      },
+      "8665ea2c-b8eb-4000-a481-524a13793000": {
+        "id": "8665ea2c-b8eb-4000-a481-524a13793000",
+        "name": "Folie7.PNG",
+        "path": "/Users/noasendlhofer/Documents/GitHub/BMA-UNESCO_Wand/UNESCO Screen 1/content/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "5d5ece0e2b3fc9b5",
+        "locator": "file:///Users/noasendlhofer/Documents/GitHub/BMA-UNESCO_Wand/UNESCO Screen 1/content/Folie7.PNG",
+        "mediaType": "Image",
+        "fileSize": 1290298,
+        "lastModifiedDate": "2022-08-08T06:48:11.000Z",
+        "refCount": 1
+      },
+      "1f4c76e3-bfba-4000-adc0-311d1ca26000": {
+        "id": "1f4c76e3-bfba-4000-adc0-311d1ca26000",
+        "name": "Folie8.PNG",
+        "path": "/Users/noasendlhofer/Documents/GitHub/BMA-UNESCO_Wand/UNESCO Screen 1/content/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "5d5ece0e2b3fc9b5",
+        "locator": "file:///Users/noasendlhofer/Documents/GitHub/BMA-UNESCO_Wand/UNESCO Screen 1/content/Folie8.PNG",
+        "mediaType": "Image",
+        "fileSize": 1293822,
+        "lastModifiedDate": "2022-08-08T06:48:11.000Z",
+        "refCount": 1
+      },
+      "b3450260-cb1a-4000-a2e2-dc4ef487b000": {
+        "id": "b3450260-cb1a-4000-a2e2-dc4ef487b000",
+        "name": "Folie9.PNG",
+        "path": "/Users/noasendlhofer/Documents/GitHub/BMA-UNESCO_Wand/UNESCO Screen 1/content/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "5d5ece0e2b3fc9b5",
+        "locator": "file:///Users/noasendlhofer/Documents/GitHub/BMA-UNESCO_Wand/UNESCO Screen 1/content/Folie9.PNG",
+        "mediaType": "Image",
+        "fileSize": 1381736,
+        "lastModifiedDate": "2022-08-08T06:48:12.000Z",
+        "refCount": 1
+      }
+    },
+    "thumbnail": {
+      "type": "image/jpeg",
+      "data": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAMCAgICAgMCAgIDAwMDBAYEBAQEBAgGBgUGCQgKCgkICQkKDA8MCgsOCwkJDRENDg8QEBEQCgwSExIQEw8QEBD/2wBDAQMDAwQDBAgEBAgQCwkLEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBD/wAARCADIAHADASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAgBBv/EAC0QAQABAwEFBgcBAQAAAAAAAAABOXHGpgMIESlhBAUGCRVRAhgiI0FEVXMZ/8QAGQEBAQEBAQEAAAAAAAAAAAAAAAMEAgUB/8QAKREAAQIFAgUEAwAAAAAAAAAAAAIDARFBcsETQhIhYZLhFVNikQUyUf/aAAwDAQACEQMRAD8A6vdy3c9zX5NfD+8DvBeDp/b9X729Q71/q7bsmw+x2Ta/5fB9HwdZ/Mt5NX5mdVHDk1TPXKljveccVxLUpa/3VDkqUIQhLpH+nK18BHHDyavedVHDyavedVLHHGt8193glr9COOHk1e86qOHk1e86qWOGt8193ga/Qjjh5NXvOqjh5NXvOqljhrfNfd4Gv0I44eTV7zqo4eTV7zqpY4a3zX3eBr9COOHk1e86qOHk1e86qWOGt8193ga/Qjif+NX4mdVM3jd3Pc1+TXxDvA7vvg6f1PSO9vUO9f6ux7Jt/sdr2v8Ar8H1/B1j8SshHHDk1RPXKnbbiuJCkrX+6Yc1ThGEfr+FUL4xFGqb5UsdHEUapvlSx3Du+9WCT9AAzkQAAAAAAAAAI4mjVF8qWOjiaNUXypoZ2XpyWYqIo1TfKljo4ijVN8qWOO771YD9AAzkQAAAAAAAAAI4mjVF8qWOjiaNUXypoZ2XpyWYqIo1TfKljo4ijVN8qWOO771YD9AAzkQAAAAAAAAAI4mjVF8qWOjiaNUXypoZ2XpyWYqIo1TfKljo4ijVN8qWOO771YD9AAzkQAAAAAAAAAI4mjVF8qWOjiaNUXypoZ2XpyWYqIo1TfKljo4ijVN8qWOO771YD9AAzkQAAAAAAAAAI4mjVF8qWOjiaNUXypoZ2XpyWYqIo1TfKljo4ijVN8qWOO771YD9AAzkQAAAAAAAAAI4mjVF8qWOjiaNUXypoZ2XpyWYqIo1TfKljo4ijVN8qWOO771YD9AAzkQAAAAAAAAAI4mjVF8qWOjiaNUXypoZ2XpyWYqIo1TfKljo4ijVN8qWOO771YD9AAzkQAAAAAAAAAI4mjVF8qWOjiaNUXypoZ2XpyWYqIo1TfKljo4ijVN8qWOO771YD9AAzkQAAAAAAAAAI4mjVF8qWOjiaNUXypoZ2XpyWYqIo1TfKljo4ijVN8qWOO771YD9AAzkQAAAAAAAAAI4mjVF8qWOjiaNUXypoZ2XpyWYqIo1TfKljo4ijVN8qWO+uwnx3qwH6ABnlEiACUQACUQACUQACUQEcTRqi+VLHRxNGqL5UuzCXBenJZipm7nvGbmvya+Ht33eC8Yz+36t3T6d3r/V23a9h9/smy/y+P6Np0n8w3k1ddVA9iP4xEVLUlxUJxjHlGXP6NMhyaeuqTk1ddUg69Mh7q+7wJQHJq66pOTV11SB6ZD3V93gSgOTV11ScmrrqkD0yHur7vAlAcmrrqk5NXXVIHpkPdX3eBKA5NXXVJyaeuqQPTIe6vu8CUByauuqmbxm8Zua/Jr4h3fd33xjP6npPdPp3ev9XY9r2/3+17L/AF+P69p0j8QDlP41EFIUpaoyjCPOM+f0JH//2Q==",
+      "size": {
+        "width": 112,
+        "height": 200
+      },
+      "hash": "ad2f35f49e9718297bce93701b821fcb8a5d05fc"
+    }
+  },
+  "selection": {
+    "hovered": null,
+    "selectionContainer": {
+      "id": "4cf67554-efb5-4000-a03a-e686b6866000",
+      "type": "ZONE",
+      "selectableType": "ZONE"
+    },
+    "selectionEntities": {},
+    "prevSelectionEntities": {
+      "23c1af8e-726a-4000-aa69-456b964d3000": {
+        "id": "23c1af8e-726a-4000-aa69-456b964d3000",
+        "type": "Event",
+        "selectableType": "TRANSITION",
+        "selectableData": null
+      }
+    },
+    "isEventAdvancedEnabled": false,
+    "activeAssetMenuTab": "ASSETS"
+  },
+  "interactiveCanvas": {
+    "statePositionById": {},
+    "eventDataById": {},
+    "viewTransformByZoneId": {},
+    "isLoaderEnabled": false
+  },
+  "eventMenu": {
+    "isOpen": true,
+    "showTitles": true
+  },
+  "liveText": {},
+  "screenLayoutSettings": {
+    "selectedLayoutId": null,
+    "screenCount": null,
+    "isLayoutBoundaryToggled": false,
+    "selectedBezel": null,
+    "isSnapToCanvasToggled": false
+  }
+}
