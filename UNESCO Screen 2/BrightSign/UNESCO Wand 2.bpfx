@@ -497,7 +497,7 @@
         }
       },
       "wssDeviceSpec": {},
-      "lastModifiedTime": "2024-02-19T14:15:04.811Z"
+      "lastModifiedTime": "2024-04-01T08:19:33.372Z"
     },
     "zones": {
       "zonesById": {
@@ -551,8 +551,8 @@
               "usb_4": "None",
               "usb_5": "None",
               "usb_6": "None",
-              "spdif": "Pcm",
-              "hdmi": "Pcm",
+              "spdif": "None",
+              "hdmi": "None",
               "hdmi1": "Pcm",
               "hdmi2": "None",
               "hdmi3": "None",
@@ -1495,9 +1495,9 @@
     },
     "viewTransformByZoneId": {
       "be517e30-d34b-4000-a2a0-9f80c89c0000": {
-        "x": 0,
-        "y": 0,
-        "k": 1
+        "x": 16.08398349020105,
+        "y": -17.192079377045033,
+        "k": 0.5241312377584643
       }
     },
     "isLoaderEnabled": false
